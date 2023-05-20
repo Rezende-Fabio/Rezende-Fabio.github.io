@@ -1,0 +1,33 @@
+.fixar{
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00000095;
+    border-radius: 20px;
+}
+
+.bg-img{
+    background-image: url("../assets/background.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.card-projeto{
+    background-color: aquamarine;
+    width: 20rem;
+    height: 10rem;
+}
+
