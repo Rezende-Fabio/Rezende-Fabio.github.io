@@ -1,7 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .fixar{
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -14,7 +24,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .bg-img{
-    background-image: url("../assets/background.jpg") !important;
+    background:
+    linear-gradient(
+      rgba(4, 4, 14, 0.562),rgba(1, 1, 28, 0.792)
+    ),
+    url("../assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,10 +38,10 @@ body::-webkit-scrollbar-thumb {
     height: 100vh;
 }
 
-
 .card-projeto{
     background-color: aquamarine;
     width: 20rem;
     height: 10rem;
 }
+
 
