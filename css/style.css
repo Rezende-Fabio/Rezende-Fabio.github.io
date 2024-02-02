@@ -133,6 +133,14 @@ section#inicio div#arraste i {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
+.fw-lighter{
+    font-weight: 250 !important;
+}
+
+.list-group-item{
+    position: initial !important;
+}
+
 @media (max-width: 1024px) {
     body {
         overflow-x: hidden;
