@@ -11,7 +11,7 @@ body {
     background-color: #021124 !important;
 }
 
-header{
+header {
     position: fixed;
 }
 
@@ -63,7 +63,7 @@ nav {
 
 section#inicio {
     background:
-        linear-gradient(rgba(4, 4, 14, 0.562), rgba(1, 1, 28, 0.792)),
+        linear-gradient(rgba(4, 4, 14, 0.362), rgb(0, 0, 0, 0.9)),
         url("../assets/img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -133,11 +133,11 @@ section#inicio div#arraste i {
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
-.fw-lighter{
+.fw-lighter {
     font-weight: 250 !important;
 }
 
-.list-group-item{
+.list-group-item {
     position: initial !important;
 }
 
@@ -168,7 +168,7 @@ section#inicio div#arraste i {
     .nav-list li a {
         font-size: 15px;
     }
-    
+
     .nav-list li a i {
         font-size: 15px;
     }
@@ -206,14 +206,47 @@ section#inicio div#arraste i {
 
 *::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  *::-webkit-scrollbar-track {
+}
+
+*::-webkit-scrollbar-track {
     width: 12px;
     box-shadow: inset 0 0 .3rem #00000050;
-    background-color: #fff ;
-  }
-  
-  *::-webkit-scrollbar-thumb {
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
     background-color: #021124;
-  }
+}
+
+.saction-bg{
+    background-color: #7292bd9e;
+}
+
+.list{
+    background-color: transparent !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+}
+
+main {
+    color: #ffffff !important;
+}
+
+section#sobre {
+    background: linear-gradient(rgba(4, 4, 14, 0.362), rgba(18, 3, 70, 0.95));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section#habilidades {
+    background: linear-gradient(rgba(18, 3, 70, 0.95), rgba(4, 4, 14, 0.362));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
