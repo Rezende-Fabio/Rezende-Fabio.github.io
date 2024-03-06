@@ -13,13 +13,14 @@ body {
 
 header {
     position: fixed;
+    z-index: 9999999;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #021124;
+    background-color: #18273a;
     height: 8vh;
     width: 100vw;
 }
@@ -152,7 +153,7 @@ section#inicio div#arraste i {
         right: 0;
         width: 50vw;
         height: 92vh;
-        background-color: #021124;
+        background-color: #18273a;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;

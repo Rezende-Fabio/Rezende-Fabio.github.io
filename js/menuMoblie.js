@@ -1,5 +1,5 @@
-class MenuMobile{
-    constructor(menuMobile, navList, navLinks, alinks){
+class MenuMobile {
+    constructor(menuMobile, navList, navLinks, alinks) {
         this.menuMobile = document.querySelector(menuMobile);
         this.navList = document.querySelector(navList);
         this.navLinks = document.querySelectorAll(navLinks);
@@ -9,36 +9,39 @@ class MenuMobile{
         this.handleClick = this.handleClick.bind(this);
     }
 
-    addClickEventLink(){
+    addClickEventLink() {
         this.links.forEach((link) => {
             link.addEventListener("click", this.handleClick);
         });
     }
 
-    animateLinks(){
+    animateLinks() {
         this.navLinks.forEach((link, index) => {
             link.style.animation
-            ? (link.style.animation = "")
-            : (link.style.animation = `navLinksFade 0.7s ease forwards ${index / 7 + 0.3}s`)
+                ? (link.style.animation = "")
+                : (link.style.animation = `navLinksFade 0.7s ease forwards ${index / 7 + 0.3}s`)
         });
     }
 
-    handleClick(){
-        this.navList.classList.toggle(this.classeAtiva);
-        this.menuMobile.classList.toggle(this.classeAtiva);
-        this.animateLinks();
+    handleClick() {
+        let windowWidth = window.innerWidth;
+        if (windowWidth <= 1024) {
+            this.animateLinks();
+            this.navList.classList.toggle(this.classeAtiva);
+            this.menuMobile.classList.toggle(this.classeAtiva);
+        }
     }
 
-    addClickEvent(){
-        this.menuMobile.addEventListener("click", this.handleClick);  
+    addClickEvent() {
+        this.menuMobile.addEventListener("click", this.handleClick);
     }
 
-    init(){
-        if (this.menuMobile){
+    init() {
+        if (this.menuMobile) {
             this.addClickEvent();
             this.addClickEventLink();
         }
-        
+
         return this;
     }
 }
