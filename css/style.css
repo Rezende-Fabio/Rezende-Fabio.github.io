@@ -196,6 +196,16 @@ section#inicio div#arraste i {
         margin-left: 0;
     }
 
+    .carousel-control-prev{
+        margin-left: 0 !important;
+        display: none !important;
+    }
+    
+    .carousel-control-next{
+        margin-right: 0 !important;
+        display: none !important;
+    }
+
 }
 
 @keyframes navLinksFade {
@@ -303,6 +313,42 @@ section#curriculo {
     border: 2.5px solid #ffffff;
     background-color: #18273a;
     border-radius: 50%;
+}
+
+section#portfolio {
+    background: linear-gradient(rgba(18, 3, 70, 0.95), rgba(4, 4, 14, 0.362));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-title{
+    color: #000000 !important;
+}
+
+.card-text{
+    color: #000000 !important;
+}
+
+.carousel-control-next,
+.carousel-control-prev{
+    filter: invert(100%);
+}
+
+.carousel-indicators{
+    filter: invert(100%);
+}
+
+
+.carousel-control-prev{
+    margin-left: -7.2rem !important;
+}
+
+.carousel-control-next{
+    margin-right: -7.2rem !important;
+}
+
+.carousel-indicators{
+    margin-bottom: -35px !important;
 }
 
 footer{
