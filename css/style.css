@@ -25,7 +25,7 @@ nav {
     width: 100vw;
 }
 
-.nav-list {
+.menu {
     list-style: none;
     display: flex;
 }
@@ -40,17 +40,17 @@ nav {
     height: 45px;
 }
 
-.nav-list li {
+.menu li {
     letter-spacing: 3px;
     margin-left: 32px;
 }
 
-.nav-list li a {
+.menu li a {
     text-decoration: none;
     color: #ffffff;
 }
 
-.nav-list li a i {
+.menu li a i {
     margin-right: 8px;
 }
 
@@ -162,21 +162,28 @@ section#inicio div#arraste i {
         background-color: #18273a;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: start;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
     }
 
-    .nav-list li {
+    .menu{
+        height: 75vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu li {
         margin-left: 0;
         opacity: 0;
     }
 
-    .nav-list li a {
+    .menu li a {
         font-size: 15px;
     }
 
-    .nav-list li a i {
+    .menu li a i {
         font-size: 15px;
     }
 
