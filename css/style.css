@@ -386,6 +386,19 @@ section#portfolio {
     margin-bottom: -35px !important;
 }
 
+.text-body-secondary i{
+    font-size: 2.1rem;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.text-body-secondary i:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transform: translateY(-5px);
+}
+
 footer{
     background-color: #18273a;
 }
