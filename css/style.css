@@ -338,6 +338,18 @@ section#portfolio {
     background-size: cover;
 }
 
+.nav-pills .nav-link{
+    color: #ffffff;
+}
+
+.nav-pills .nav-link.active{
+    color: #ffffff;
+    font-weight: 650;
+    background-color: transparent;
+    border-radius: 0px !important;
+    border-bottom: 2px solid #ffffff;
+}
+
 .card-title{
     color: #000000 !important;
 }
@@ -354,7 +366,6 @@ section#portfolio {
 .carousel-indicators{
     filter: invert(100%);
 }
-
 
 .carousel-control-prev{
     margin-left: -7.2rem !important;
