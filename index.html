@@ -366,14 +366,51 @@
                 <div class="tab-content" id="pills-tabContent">
                     <div class="tab-pane fade show active" id="tab-individuais" role="tabpanel"
                         aria-labelledby="individuais">
-
+                        <div id="carouselPortfolioInd" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselPortfolioInd" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselPortfolioInd" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                                        <div class="col">
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#myCarMobile">
+                                                <div class="card">
+                                                    <div class="img-container">
+                                                        <img src="/assets/img/my_car_mobile.jpg" class="card-img-top project-image-mobile"
+                                                            alt="My Car Mobile">
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">My Car Mobile</h5>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolioInd"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolioInd"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
                     </div>
                     <div class="tab-pane fade" id="tab-colaborativo" role="tabpanel" aria-labelledby="colaborativo">
-                        <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div id="carouselPortfolioColab" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0"
+                                <button type="button" data-bs-target="#carouselPortfolioColab" data-bs-slide-to="0"
                                     class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                                <button type="button" data-bs-target="#carouselPortfolioColab" data-bs-slide-to="1"
                                     aria-label="Slide 2"></button>
                             </div>
                             <div class="carousel-inner">
@@ -383,7 +420,8 @@
                                             <button type="button" class="btn" data-bs-toggle="modal"
                                                 data-bs-target="#medSeniorMobile">
                                                 <div class="card">
-                                                    <img src="./assets/img/med_senior_mobile.jpg" class="card-img-top"
+                                                    <img src="./assets/img/med_senior_mobile.jpg"
+                                                        class="card-img-top img-fluid project-image"
                                                         alt="Med Senior Mobile">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Med Senior Mobile</h5>
@@ -395,7 +433,8 @@
                                             <button type="button" class="btn" data-bs-toggle="modal"
                                                 data-bs-target="#medSeniorApi">
                                                 <div class="card">
-                                                    <img src="./assets/img/med_senior_api.jpg" class="card-img-top"
+                                                    <img src="./assets/img/med_senior_api.jpg"
+                                                        class="card-img-top img-fluid project-image"
                                                         alt="Med Senior API">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Med Senior API</h5>
@@ -407,7 +446,8 @@
                                             <button type="button" class="btn" data-bs-toggle="modal"
                                                 data-bs-target="#medSeniorWeb">
                                                 <div class="card">
-                                                    <img src="./assets/img/med_senior_web.png" class="card-img-top"
+                                                    <img src="./assets/img/med_senior_web.png"
+                                                        class="card-img-top img-fluid project-image"
                                                         alt="Med Senior Web">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Med Senior Web</h5>
@@ -424,8 +464,8 @@
                                             <button type="button" class="btn" data-bs-toggle="modal"
                                                 data-bs-target="#fruitMarket">
                                                 <div class="card">
-                                                    <img src="./assets/img/fruit_market.png" class="card-img-top"
-                                                        alt="Fruit Market">
+                                                    <img src="./assets/img/fruit_market.png"
+                                                        class="card-img-top img-fluid project-image" alt="Fruit Market">
                                                     <div class="card-body">
                                                         <h5 class="card-title">Fruit Market</h5>
                                                     </div>
@@ -435,12 +475,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolioColab"
                                 data-bs-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Previous</span>
                             </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolioColab"
                                 data-bs-slide="next">
                                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                 <span class="visually-hidden">Next</span>
@@ -478,6 +518,41 @@
     </main>
 
     <section>
+
+        <!-- Modal My Car Mobile -->
+        <div class="modal fade" id="myCarMobile" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">My Car Mobile</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Descrição</h6>
+                        <p class="modal-text ms-3">
+                            Projeto mobile desenvolvido em Flutter que auxilia com os cuidados do carro, podendo inserir manutenções futuras,
+                            visualizar gastos e lembrete de renovação de documentos, para manter seu carro em dia.
+                        </p>
+                        <h6>Tecnologias</h6>
+                        <div class="ms-3">
+                            <a href="https://skillicons.dev" target="_blank">
+                                <img src="https://skillicons.dev/icons?i=flutter&perline=5" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Rezende-Fabio/mycar-mobile" target="_blank"
+                                class="btn btn-outline-dark">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Modal Med Senior Mobile -->
         <div class="modal fade" id="medSeniorMobile" tabindex="-1" aria-labelledby="exampleModalLabel"
             aria-hidden="true">
@@ -490,7 +565,7 @@
                     <div class="modal-body">
                         <h6>Descrição</h6>
                         <p class="modal-text ms-3">
-                            Projeto mobile escrito em Flutter que consulta um back-end
+                            Projeto mobile desenvolvido em Flutter que consulta um back-end
                             feito
                             em
                             Nest.js.
@@ -525,7 +600,7 @@
                     <div class="modal-body">
                         <h6>Descrição</h6>
                         <p class="modal-text ms-3">
-                            Projeto back-end escrito em Nest.js para alimentar uma
+                            Projeto back-end desenvolvido em Nest.js para alimentar uma
                             aplicação
                             mobile
                             e Web.
@@ -560,7 +635,7 @@
                     <div class="modal-body">
                         <h6>Descrição</h6>
                         <p class="modal-text ms-3">
-                            Projeto web escrito em Vue que consulta um back-end feito em
+                            Projeto web desenvolvido em Vue que consulta um back-end feito em
                             Nest.js.
                         </p>
                         <h6>Tecnologias</h6>
@@ -593,7 +668,7 @@
                     <div class="modal-body">
                         <h6>Descrição</h6>
                         <p class="modal-text ms-3">
-                            Projeto mobile escrito em Flutter de um e-commerce.
+                            Projeto mobile desenvolvido em Flutter de um e-commerce.
                         </p>
                         <h6>Tecnologias</h6>
                         <div class="ms-3">
