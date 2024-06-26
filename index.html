@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="icon" href="/assets/img/Logo.ico" type="image/x-icon">
+
     <title>Fabio da Silva Rezende</title>
 </head>
 
@@ -27,44 +29,44 @@
                 <div class="linha3"></div>
             </div>
             <ul class="nav-list">
-                <li>
-                    <a href="#inicio" class="link">
-                        <i class="fa-solid fa-house"></i>Início
-                    </a>
-                </li>
-                <li>
-                    <a href="#sobre" class="link">
-                        <i class="fa-regular fa-user"></i>Sobre
-                    </a>
-                </li>
-                <li>
-                    <a href="#habilidades" class="link">
-                        <i class="fa-solid fa-list-check"></i>Habilidades
-                    </a>
-                </li>
-                <li>
-                    <a href="#curriculo" class="link">
-                        <i class="fa-regular fa-file"></i>Currículo
-                    </a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="link">
-                        <i class="bi bi-collection-fill"></i>Portfólio
-                    </a>
-                </li>
+                <div class="menu">
+                    <li>
+                        <a href="#inicio" class="link">
+                            <i class="fa-solid fa-house"></i>Início
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="link">
+                            <i class="fa-regular fa-user"></i>Sobre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#habilidades" class="link">
+                            <i class="fa-solid fa-list-check"></i>Habilidades
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#curriculo" class="link">
+                            <i class="fa-regular fa-file"></i>Currículo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="link">
+                            <i class="bi bi-collection-fill"></i>Portfólio
+                        </a>
+                    </li>
+                </div>
             </ul>
         </nav>
     </header>
 
     <main style="background-color: #000000;">
+        <div class="meteors"></div>
         <section id="inicio" class="row m-0 p-0">
             <div class="col-md-6 d-flex justify-content-end align-items-center flex-column">
                 <h2 class="text-white text-shadow">Fabio Rezende</h2>
                 <span id="subtitle" class="text-white text-shadow">Desenvolvedor Full-Stack</span>
             </div>
-            <!-- <div class="col-md-5 d-flex justify-content-end align-items-center flex-column">
-                <img class="foto" src="./assets/img/Fabio_Rezende.png" alt="Fabio Rezende">
-            </div> -->
             <div class="row m-0 p-0">
                 <div class="col d-flex justify-content-end align-items-end">
                     <div id="arraste" class="d-flex align-items-center">
@@ -82,7 +84,7 @@
         <section id="sobre">
             <div class="container">
                 <div class="row w-100">
-                    <div class="col-md-12">
+                    <div class="col-md-12" data-anime="down">
                         <h2 class="pt-3">Sobre</h2>
                         <p>Sou um entusiasta de tecnologias com uma paixão dedicada ao desenvolvimento, acumulando um
                             ano e
@@ -118,9 +120,10 @@
                 </div>
                 <div class="row mt-4">
                     <div class="col-md-3">
-                        <img class="img-fluid shadow" src="./assets/img/Fabio_Rezende.png" alt="Foto do Fabio">
+                        <img class="img-fluid shadow" src="./assets/img/Fabio_Rezende.png" alt="Foto do Fabio"
+                            data-anime="left">
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8" data-anime="right">
                         <h3>Analista de Sistemas Júnior</h3>
                         <p>Atualmente, desempenho a função de Analista de Sistemas no setor de Tecnologia da Alpina
                             Têxtil, focando
@@ -163,55 +166,55 @@
 
         <section id="habilidades" class="section-bg">
             <div class="container pb-5">
-                <h2 class="pt-5">Halibilidades</h2>
+                <h2 class="pt-5">Habilidades</h2>
                 <div class="row">
                     <div class="col-md-6">
                         <p class="mt-3 mb-0">HTML</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 80%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">CSS</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 70%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">JavaScript</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 60%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Python</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 90%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Git</p>
                         <div class="progress">
-                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60"
-                                aria-valuemin="0" aria-valuemax="100">
-                                60%
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
+                                70%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Docker</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 40%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">SQL</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 70%
                             </div>
                         </div>
@@ -220,35 +223,35 @@
                         <p class="mt-3 mb-0">Flutter</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 50%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Flask</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 70%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">NodeJs (Nest)</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 50%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">React</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 40%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">VueJs</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 30%
                             </div>
                         </div>
@@ -262,21 +265,21 @@
                         <p class="mt-3 mb-0">Trabalho em equipe</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 90%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Proatividade</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 85%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Comprometimento</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 90%
                             </div>
                         </div>
@@ -285,14 +288,14 @@
                         <p class="mt-3 mb-0">Comunicação</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 80%
                             </div>
                         </div>
                         <p class="mt-3 mb-0">Empatia</p>
                         <div class="progress">
                             <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
-                                aria-valuemin="0" aria-valuemax="100">
+                                aria-valuemin="0" aria-valuemax="100" data-anime="left">
                                 75%
                             </div>
                         </div>
@@ -307,10 +310,10 @@
 
                 <div class="row">
                     <div class="col-md-6">
-                        <h3 class="cv-title">Educação</h3>
-                        <div class="cv-item">
+                        <h3 class="cv-title" data-anime="up">Educação</h3>
+                        <div class="cv-item" data-anime="up">
                             <h4>Análise e Desenvolvimento de Sistemas</h4>
-                            <h5>2021 - 2023</h5>
+                            <h5>02/2021 - 12/2023</h5>
                             <p><em>Instituto Federal de São Paulo (IFSP)</em></p>
                             <p>Durante o curso, explorei profundamente os conceitos e técnicas de desenvolvimento,
                                 imergindo nas tecnologias que impulsionam os sistemas de informação modernos. Ao longo
@@ -320,18 +323,18 @@
                         </div>
                     </div>
                     <div class="col-md-6">
-                        <h3 class="cv-title">Profissional</h3>
-                        <div class="cv-item">
+                        <h3 class="cv-title" data-anime="up">Profissional</h3>
+                        <div class="cv-item" data-anime="up">
                             <h4>Analista de Sistemas Júnior</h4>
-                            <h5>2024 - atual</h5>
+                            <h5>01/2024 - momento</h5>
                             <p><em>Alpina Têxtil</em></p>
                             <p>Desenvolvedor Full-stack trabalhando com Python no back-end e HTML, CSS e JavaScript no
                                 front-end.</p>
                         </div>
 
-                        <div class="cv-item">
+                        <div class="cv-item" data-anime="up">
                             <h4>Auxiliar de T.I</h4>
-                            <h5>2021 - 2024</h5>
+                            <h5>03/2021 - 01/2024</h5>
                             <p><em>Alpina Têxtil</em></p>
                             <p>Manutenção de computadores e impressora, organização de rede e suporte ao colaborador.
                             </p>
@@ -342,143 +345,284 @@
         </section>
 
         <section id="portfolio">
-            <div class="container pb-5">
+            <div class="container pb-5" data-anime="left">
                 <h2 class="pb-4">Portfólio</h2>
 
-                <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                    </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="10000">
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col">
-                                    <div class="card">
-                                        <img src="./assets/img/med_senior_mobile.jpg" class="card-img-top"
-                                            alt="Med Senior Mobile">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Med Senior Mobile</h5>
-                                            <p class="card-text">
-                                                Projeto mobile escrito em Flutter que consulta um back-end feito em
-                                                Nest.js.
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://github.com/Rezende-Fabio/med-senior-mobile"
-                                                    target="_blank" class="btn btn-outline-dark">
-                                                    <i class="bi bi-github"></i>
-                                                </a>
-                                            </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img src="./assets/img/med_senior_api.jpg" class="card-img-top" alt="Med Senior API">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Med Senior API</h5>
-                                            <p class="card-text">
-                                                Projeto back-end escrito em Nest.js para alimentar uma aplicação mobile e Web.
-                                                <div class="d-flex justify-content-center">
-                                                    <a href="https://github.com/Rezende-Fabio/med-senior-api"
-                                                        target="_blank" class="btn btn-outline-dark">
-                                                        <i class="bi bi-github"></i>
-                                                    </a>
-                                                </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="card">
-                                        <img src="./assets/img/med_senior_web.png" class="card-img-top" alt="Med Senior Web">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Med Senior Web</h5>
-                                            <p class="card-text">
-                                                Projeto web escrito em Vue que consulta um back-end feito em Nest.js.
-                                                <div class="d-flex justify-content-center">
-                                                    <a href="https://github.com/Rezende-Fabio/med-senior-front"
-                                                        target="_blank" class="btn btn-outline-dark">
-                                                        <i class="bi bi-github"></i>
-                                                    </a>
-                                                </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <div class="row row-cols-1 row-cols-md-3 g-4">
-                                <div class="col">
-                                    <div class="card">
-                                        <img src="./assets/img/fruit_market.png" class="card-img-top"
-                                            alt="Fruit Market">
-                                        <div class="card-body">
-                                            <h5 class="card-title">Fruit Market</h5>
-                                            <p class="card-text">
-                                                Projeto mobile escrito em Flutter de um e-commerce.
-                                            <div class="d-flex justify-content-center">
-                                                <a href="https://github.com/Rezende-Fabio/fruit-market"
-                                                    target="_blank" class="btn btn-outline-dark">
-                                                    <i class="bi bi-github"></i>
-                                                </a>
-                                            </div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                <div class="d-flex justify-content-center mb-3">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="individuais" data-bs-toggle="pill"
+                                data-bs-target="#tab-individuais" type="button" role="tab"
+                                aria-controls="tab-individuais" aria-selected="true">Individuais</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="colaborativo" data-bs-toggle="pill"
+                                data-bs-target="#tab-colaborativo" type="button" role="tab"
+                                aria-controls="tab-colaborativo" aria-selected="false">Colaborativos</button>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="tab-individuais" role="tabpanel"
+                        aria-labelledby="individuais">
+
+                    </div>
+                    <div class="tab-pane fade" id="tab-colaborativo" role="tabpanel" aria-labelledby="colaborativo">
+                        <div id="carouselPortfolio" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                                        <div class="col">
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#medSeniorMobile">
+                                                <div class="card">
+                                                    <img src="./assets/img/med_senior_mobile.jpg" class="card-img-top"
+                                                        alt="Med Senior Mobile">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Med Senior Mobile</h5>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#medSeniorApi">
+                                                <div class="card">
+                                                    <img src="./assets/img/med_senior_api.jpg" class="card-img-top"
+                                                        alt="Med Senior API">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Med Senior API</h5>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div class="col">
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#medSeniorWeb">
+                                                <div class="card">
+                                                    <img src="./assets/img/med_senior_web.png" class="card-img-top"
+                                                        alt="Med Senior Web">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Med Senior Web</h5>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item" data-bs-interval="2000">
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                                        <div class="col">
+                                            <button type="button" class="btn" data-bs-toggle="modal"
+                                                data-bs-target="#fruitMarket">
+                                                <div class="card">
+                                                    <img src="./assets/img/fruit_market.png" class="card-img-top"
+                                                        alt="Fruit Market">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Fruit Market</h5>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container p-5">
+                <ul class="nav justify-content-center d-flex">
+                    <li class="ms-4">
+                        <a class="text-body-secondary" href="mailto:rezendefabio337@hotmail.com" target="_blank">
+                            <i class="fa-regular fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="ms-4">
+                        <a class="text-body-secondary" href="https://www.linkedin.com/in/fabio-rezendee/"
+                            target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="ms-4">
+                        <a class="text-body-secondary" href="https://instagram.com/rezendee_fabio" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="ms-4">
+                        <a class="text-body-secondary" href="https://github.com/Rezende-Fabio" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
     </main>
 
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3">
-        <div class="col-md-4 d-flex align-items-center ms-5">
-            <span class="copyright">© 2023 Fabio Rezende</span>
+    <section>
+        <!-- Modal Med Senior Mobile -->
+        <div class="modal fade" id="medSeniorMobile" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Med Senior Mobile</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Descrição</h6>
+                        <p class="modal-text ms-3">
+                            Projeto mobile escrito em Flutter que consulta um back-end
+                            feito
+                            em
+                            Nest.js.
+                        </p>
+                        <h6>Tecnologias</h6>
+                        <div class="ms-3">
+                            <a href="https://skillicons.dev" target="_blank">
+                                <img src="https://skillicons.dev/icons?i=flutter&perline=5" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Rezende-Fabio/med-senior-mobile" target="_blank"
+                                class="btn btn-outline-dark">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex pe-5">
-            <li class="ms-4">
-                <a class="text-body-secondary" href="mailto:rezendefabio337@hotmail.com" target="_blank">
-                    <i class="fa-regular fa-envelope"></i>
-                </a>
-            </li>
-            <li class="ms-4">
-                <a class="text-body-secondary" href="https://www.linkedin.com/in/fabio-rezendee/" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
-                </a>
-            </li>
-            <li class="ms-4">
-                <a class="text-body-secondary" href="https://instagram.com/rezendee_fabio" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-            <li class="ms-4">
-                <a class="text-body-secondary" href="https://github.com/Rezende-Fabio" target="_blank">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-            </li>
-        </ul>
+        <!-- Modal Med Senior API -->
+        <div class="modal fade" id="medSeniorApi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Med Senior API</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Descrição</h6>
+                        <p class="modal-text ms-3">
+                            Projeto back-end escrito em Nest.js para alimentar uma
+                            aplicação
+                            mobile
+                            e Web.
+                        </p>
+                        <h6>Tecnologias</h6>
+                        <div class="ms-3">
+                            <a href="https://skillicons.dev" target="_blank">
+                                <img src="https://skillicons.dev/icons?i=ts,nestjs,prisma,docker,mongodb&perline=5" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Rezende-Fabio/med-senior-api" target="_blank"
+                                class="btn btn-outline-dark">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Med Senior Web -->
+        <div class="modal fade" id="medSeniorWeb" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Med Senior Web</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Descrição</h6>
+                        <p class="modal-text ms-3">
+                            Projeto web escrito em Vue que consulta um back-end feito em
+                            Nest.js.
+                        </p>
+                        <h6>Tecnologias</h6>
+                        <div class="ms-3">
+                            <a href="https://skillicons.dev" target="_blank">
+                                <img src="https://skillicons.dev/icons?i=ts,vue,vuetify,css,docker&perline=5" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Rezende-Fabio/med-senior-front" target="_blank"
+                                class="btn btn-outline-dark">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Fruit Market -->
+        <div class="modal fade" id="fruitMarket" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Fruit Market</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Descrição</h6>
+                        <p class="modal-text ms-3">
+                            Projeto mobile escrito em Flutter de um e-commerce.
+                        </p>
+                        <h6>Tecnologias</h6>
+                        <div class="ms-3">
+                            <a href="https://skillicons.dev" target="_blank">
+                                <img src="https://skillicons.dev/icons?i=flutter&perline=5" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <div class="d-flex justify-content-center">
+                            <a href="https://github.com/Rezende-Fabio/fruit-market" target="_blank"
+                                class="btn btn-outline-dark">
+                                <i class="bi bi-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="d-flex flex-wrap justify-content-center align-items-center py-3">
+        <div class="d-flex align-items-center">
+            <span class="copyright">© 2023 Fabio Rezende</span>
+        </div>
     </footer>
 
     <script src="./js/menuMoblie.js"></script>
+    <script src="./js/animation.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
